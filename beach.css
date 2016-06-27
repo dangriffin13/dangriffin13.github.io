@@ -1,6 +1,24 @@
 
+body{
+	background-image: url("both.png");
+	/*background-repeat: repeat;*/
+	background-size: 50px 25px;
+}
+
+
 
 #vid{
 	display: block;
 	margin: 0 auto;
+}
+
+#bootstrapvid{ 
+
+	align: center;
+}
+
+.container{
+	padding-top: 10px;
+	position: relative;
+	max-width: 750px;
 }
