@@ -1,0 +1,87 @@
+
+body>p{
+	padding-top: 1em;
+}
+
+body{
+	height: 200em;
+}
+
+
+.container{
+	height:200em;
+	padding-top: 3em;
+}
+
+
+.row{
+	height: 15em;
+}
+
+
+.col-md-4{
+	height: 100%;
+	border-width: 2px;
+	border-color: black;
+}
+
+.col-md-4 > p{
+	height: 95%;
+	width: 95%;
+	line-height: 1em;
+	font-size: 15em;
+	text-align: center;
+}
+
+
+#upperleft{
+	border-right: solid;
+	border-bottom: solid;
+	/*color: gray;*/
+}
+
+#uppercenter{
+	border-right: solid;
+	border-left: solid;
+	border-bottom: solid;
+	border-color: black;
+}
+
+#upperright{
+	border-left: solid;
+	border-bottom: solid;
+}
+
+#centerleft{
+	border-right: solid;
+	border-top: solid;
+	border-bottom: solid;
+}
+
+#centercenter{
+	border: solid;
+}
+
+#centerright{
+	border-left: solid;
+	border-top: solid;
+	border-bottom: solid;
+}
+
+#lowerleft{
+	border-top: solid;
+	border-right:solid;
+}
+
+#lowercenter{
+	border-top: solid;
+	border-right: solid;
+	border-left: solid;
+}
+
+#lowerright{
+	border-top: solid;
+	border-left: solid;
+}
+
+
